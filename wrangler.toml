@@ -1,0 +1,7 @@
+name = "hono-cloudflare-workers-sample"
+compatibility_date = "2025-02-26"
+
+main = "dist/index.js"
+
+[build]
+command = "bun run build"
