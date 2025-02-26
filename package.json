@@ -3,11 +3,15 @@
   "scripts": {
     "build": "tsc",
     "dev": "wrangler dev",
-    "deploy": "wrangler deploy --minify"
+    "deploy": "wrangler deploy --minify",
+    "format": "prettier --write '**/*.{js,ts}'",
+    "lint": "prettier --check '**/*.{js,ts}'",
+    "format:check": "prettier --check '**/*.{js,ts}'"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.1",
-    "hono": "^4.7.2"
+    "hono": "^4.7.2",
+    "prettier": "^3.5.2"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250214.0",

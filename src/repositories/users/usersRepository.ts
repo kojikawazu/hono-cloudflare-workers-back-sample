@@ -1,4 +1,4 @@
-import { SupabaseClient } from "@supabase/supabase-js";
+import { SupabaseClient } from '@supabase/supabase-js';
 
 /**
  * ユーザーリポジトリ
@@ -21,10 +21,10 @@ export class UsersRepository {
     async getUsers() {
         try {
             const { data, error } = await this.supabase
-                .from("users")
-                .select("*")
-                .order("created_at", { ascending: false });
-            
+                .from('users')
+                .select('*')
+                .order('created_at', { ascending: false });
+
             if (error) {
                 throw error;
             }

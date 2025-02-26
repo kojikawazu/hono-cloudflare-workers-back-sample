@@ -1,5 +1,5 @@
-import { Context } from "hono";
-import { UsersServices } from "@/services/users/usersServices";
+import { Context } from 'hono';
+import { UsersServices } from '@/services/users/usersServices';
 
 /**
  * ユーザー関連のハンドラー
@@ -25,7 +25,7 @@ export class UsersHandler {
             return c.json(users);
         } catch (error) {
             console.log(`handler: getUsers: error: ${error}`);
-            return c.json({ error: "Internal Server Error" }, 500);
+            return c.json({ error: 'Internal Server Error' }, 500);
         }
-    }
+    };
 }
