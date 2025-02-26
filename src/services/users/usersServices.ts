@@ -1,4 +1,4 @@
-import { UsersRepository } from "@/repositories/users/usersRepository";
+import { UsersRepository } from '@/repositories/users/usersRepository';
 
 export class UsersServices {
     private usersRepository: UsersRepository;

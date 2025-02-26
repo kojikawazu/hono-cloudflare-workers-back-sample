@@ -22,4 +22,5 @@ bun run deploy
 
 ```bash
 bun add -D typescript
+bun add prettier
 ```

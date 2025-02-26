@@ -1,4 +1,4 @@
-import { UsersHandler } from "@/handlers/users/usersHandler";
+import { UsersHandler } from '@/handlers/users/usersHandler';
 
 export type Env = {
     SUPABASE_URL: string;
@@ -7,9 +7,9 @@ export type Env = {
 
 export type Variables = {
     usersHandler: UsersHandler;
-}
+};
 
 export type HonoEnv = {
     Variables: Variables;
     Bindings: Env;
-}
+};
