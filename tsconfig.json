@@ -17,6 +17,10 @@
     "allowJs": true,
     "sourceMap": true,
     "moduleDetection": "force",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "include": [
     "src/**/*.ts"
