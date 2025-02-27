@@ -11,3 +11,4 @@
 [![Bun](https://img.shields.io/badge/-Bun-000000?style=flat-square&logo=bun&logoColor=white)](https://bun.sh/)
 [![Cloudflare Workers](https://img.shields.io/badge/-Cloudflare%20Workers-000000?style=flat-square&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com/)
 [![Supabase](https://img.shields.io/badge/-Supabase-000000?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
+[![Vitest](https://img.shields.io/badge/-Vitest-000000?style=flat-square&logo=vitest&logoColor=white)](https://vitest.dev/)
