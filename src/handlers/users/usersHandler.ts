@@ -1,18 +1,18 @@
 import { Context } from 'hono';
-import { UsersServices } from '@/services/users/usersServices';
+import { UsersService } from '@/services/users/usersService';
 
 /**
  * ユーザー関連のハンドラー
  */
 export class UsersHandler {
-    private usersServices: UsersServices;
+    private usersService: UsersService;
 
     /**
      * コンストラクタ
      * @param usersServices ユーザーサービス
      */
-    constructor(usersServices: UsersServices) {
-        this.usersServices = usersServices;
+    constructor(usersService: UsersService) {
+        this.usersService = usersService;
     }
 
     /**
@@ -21,7 +21,7 @@ export class UsersHandler {
      */
     getUsers = async (c: Context) => {
         try {
-            const users = await this.usersServices.getUsers();
+            const users = await this.usersService.getUsers();
             return c.json(users);
         } catch (error) {
             console.log(`handler: getUsers: error: ${error}`);
