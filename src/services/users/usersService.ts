@@ -1,6 +1,9 @@
 import { UsersRepository } from '@/repositories/users/usersRepository';
 
-export class UsersServices {
+/**
+ * ユーザーサービス
+ */
+export class UsersService {
     private usersRepository: UsersRepository;
 
     /**
