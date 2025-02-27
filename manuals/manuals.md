@@ -18,9 +18,16 @@ bun run build
 bun run deploy
 ```
 
+## テストの実行
+
+```bash
+bun run test
+```
+
 ## 追加モジュール
 
 ```bash
 bun add -D typescript
 bun add prettier
+bun add vitest
 ```
